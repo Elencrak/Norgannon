@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{81701295-2031-4587-8b64-5a2b891933d2}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Client.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Configuration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Connexion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Helpers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Client.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Configuration.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Connexion.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Helpers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)stdafx.cpp" />
+  </ItemGroup>
+</Project>

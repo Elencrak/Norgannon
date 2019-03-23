@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{162ee1df-9fd6-4226-b32c-be84682859a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{b10a67c3-c690-4890-a606-ca871d162a96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Helpers.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)stdafx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Connexion.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Configuration.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Client.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Helpers.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Connexion.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Configuration.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Client.cpp">
+      <Filter>header</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
