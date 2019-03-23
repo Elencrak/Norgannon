@@ -1,11 +1,13 @@
 #include "stdafx.h"
 #include "Client.h"
+#include "Helpers.h"
 //Libs include
 
 namespace TowerControl
 {
 	Client::Client()
 	{
+
 	}
 
 	Client::Client(Configuration config)
@@ -27,7 +29,7 @@ namespace TowerControl
 
 	void Client::Connect()
 	{
-		ENetAddress address;	
+		ENetAddress address;
 		///* Connect to some.server.net:1234. */
 		enet_address_set_host(&address, "127.0.0.1");
 		address.port = 1234;
@@ -41,7 +43,8 @@ namespace TowerControl
 		}
 
 		// TODO fixme: i think i need to move this in task.
-		networkThread(&Client::Disconnect, this);
+		// I'm not very sure about thread creation
+		networkThread = std::thread(&Client::networkLoop, this, client, 0);
 	}
 
 
@@ -89,7 +92,16 @@ namespace TowerControl
 
 	void Client::Send()
 	{
+		Message<float> myMsg;
+		myMsg.id = 8000;
+		myMsg.data = 5.5f;
+		void* data;
+		int size;
+		writeMessage<float>(data, size, myMsg);
 
+		ENetPacket * packet = enet_packet_create(data,
+			size,
+			ENET_PACKET_FLAG_RELIABLE);
 	}
 
 	void Client::Initialize()

@@ -1,16 +1,18 @@
 #include "stdafx.h"
 #include "Configuration.h"
 
-
-
-Configuration::Configuration()
+namespace TowerControl
 {
+	Configuration::Configuration()
+	{
+	}
+
+	Configuration::Configuration(std::string ip, int port, std::string options)
+	{
+	}
+
+	Configuration::~Configuration()
+	{
+	}
 }
 
-Configuration::Configuration(std::string ip, int port, std::string options)
-{
-}
-
-Configuration::~Configuration()
-{
-}
