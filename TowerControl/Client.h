@@ -24,6 +24,11 @@ namespace TowerControl
 		void Disconnect();
 		void Send();
 
+		// Enet lib
+		ENetPeer* peer;
+		ENetHost* client;
+
+
 	private:
 		void Initialize();
 		void networkLoop(ENetHost* networkCLient, int timeout);
@@ -32,8 +37,8 @@ namespace TowerControl
 		std::thread networkThread;
 
 		// Enet lib
-		ENetPeer* peer;
-		ENetHost* client;
+/*		ENetPeer* peer;
+		ENetHost* client;*/
 		
 	};
 }

@@ -21,6 +21,7 @@ namespace TowerControl
 		{
 			std::cout << "Enet initialized ..." << std::endl;
 		}
+		Initialize();
 	}
 
 	Client::~Client()
@@ -64,7 +65,7 @@ namespace TowerControl
 						event.peer->address.port);
 					/* Store any relevant client information here. */
 					event.peer->data = (void*) "Client information";
-					break;
+					break;				
 				case ENET_EVENT_TYPE_RECEIVE:
 					printf("A packet of length %u containing %s was received from %s on channel %u.\n",
 						event.packet->dataLength,
@@ -102,6 +103,9 @@ namespace TowerControl
 		ENetPacket * packet = enet_packet_create(data,
 			size,
 			ENET_PACKET_FLAG_RELIABLE);
+
+		enet_peer_send(peer, 0, packet);
+		enet_host_flush(client);
 	}
 
 	void Client::Initialize()
@@ -116,6 +120,10 @@ namespace TowerControl
 		{
 			std::cout << "An error occurred while trying to create an ENet client host." << std::endl;
 			exit(EXIT_FAILURE);
+		}
+		else
+		{
+			std::cout << "Client created" << std::endl;
 		}
 	}
 }
