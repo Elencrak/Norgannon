@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowerControl", "TowerContro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AILib", "AILib\AILib.vcxproj", "{C10E16E1-B451-42E4-9D21-8396ED608B87}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AILibTester", "AILibTester\AILibTester.vcxproj", "{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TowerControl\TowerControl.vcxitems*{81701295-2031-4587-8b64-5a2b891933d2}*SharedItemsImports = 9
@@ -51,6 +53,14 @@ Global
 		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x64.Build.0 = Release|x64
 		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x86.ActiveCfg = Release|Win32
 		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x86.Build.0 = Release|Win32
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Debug|x64.ActiveCfg = Debug|x64
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Debug|x64.Build.0 = Debug|x64
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Debug|x86.Build.0 = Debug|Win32
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Release|x64.ActiveCfg = Release|x64
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Release|x64.Build.0 = Release|x64
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Release|x86.ActiveCfg = Release|Win32
+		{CDDD7F4A-A7D9-47C3-960D-3DF23D9C8BD0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

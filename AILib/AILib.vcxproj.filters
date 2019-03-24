@@ -48,6 +48,9 @@
     <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSequence.h">
       <Filter>Header Files\Architecture\BehaviorTree</Filter>
     </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeTask.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -66,7 +69,10 @@
       <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
     <ClCompile Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeTask.cpp">
+      <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

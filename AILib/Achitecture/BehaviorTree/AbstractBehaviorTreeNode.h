@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <memory>
 #include "BehaviorTreeDescriptor.h"
 
 namespace AILib
@@ -16,10 +17,10 @@ namespace AILib
 		virtual bool CheckNode();
 
 		/// Add a child node to this node
-		virtual void AddChildNode();
+		virtual void AddChildNode(std::shared_ptr<AbstractBehaviorTreeNode> node);
 
 		/// Add a child node at a specific position
-		virtual void AddChildNode(int position);
+		virtual void AddChildNode(std::shared_ptr<AbstractBehaviorTreeNode> node, int position);
 
 		virtual void AddDescriptor(BehaviorTreeDescriptor descriptor);
 
@@ -28,7 +29,7 @@ namespace AILib
 		std::vector<BehaviorTreeDescriptor> _descriptors;
 
 	protected:
-		std::vector<AbstractBehaviorTreeNode> _childrenNodes;
+		std::vector<std::shared_ptr<AbstractBehaviorTreeNode>> _childrenNodes;
 	};
 }
 

@@ -13,12 +13,15 @@ bool AILib::AbstractBehaviorTreeNode::CheckNode()
 	return true;
 }
 
-void AILib::AbstractBehaviorTreeNode::AddChildNode()
+void AILib::AbstractBehaviorTreeNode::AddChildNode(std::shared_ptr<AbstractBehaviorTreeNode> node)
 {
+	_childrenNodes.push_back(node);
 }
 
-void AILib::AbstractBehaviorTreeNode::AddChildNode(int position)
+void AILib::AbstractBehaviorTreeNode::AddChildNode(std::shared_ptr<AbstractBehaviorTreeNode> node, int position)
 {
+	auto it = _childrenNodes.begin() + position;
+	_childrenNodes.insert(it, node);
 }
 
 void AILib::AbstractBehaviorTreeNode::AddDescriptor(BehaviorTreeDescriptor descriptor)

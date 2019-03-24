@@ -18,7 +18,7 @@ namespace AILib
 	{
 		for (auto child : _childrenNodes)
 		{
-			if (child.CheckNode() && child.ExecuteNode())
+			if (child->CheckNode() && child->ExecuteNode())
 			{
 				return true;
 			}
