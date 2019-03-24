@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Leuchars", "Leuchars\Leucha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowerControl", "TowerControl\TowerControl.vcxitems", "{81701295-2031-4587-8B64-5A2B891933D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AILib", "AILib\AILib.vcxproj", "{C10E16E1-B451-42E4-9D21-8396ED608B87}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TowerControl\TowerControl.vcxitems*{81701295-2031-4587-8b64-5a2b891933d2}*SharedItemsImports = 9
@@ -41,6 +43,14 @@ Global
 		{CE2064B7-FA23-4037-96E7-C74FE9A85E11}.Release|x64.Build.0 = Release|x64
 		{CE2064B7-FA23-4037-96E7-C74FE9A85E11}.Release|x86.ActiveCfg = Release|Win32
 		{CE2064B7-FA23-4037-96E7-C74FE9A85E11}.Release|x86.Build.0 = Release|Win32
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Debug|x64.ActiveCfg = Debug|x64
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Debug|x64.Build.0 = Debug|x64
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Debug|x86.ActiveCfg = Debug|Win32
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Debug|x86.Build.0 = Debug|Win32
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x64.ActiveCfg = Release|x64
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x64.Build.0 = Release|x64
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x86.ActiveCfg = Release|Win32
+		{C10E16E1-B451-42E4-9D21-8396ED608B87}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
