@@ -5,7 +5,7 @@
 namespace AILib
 {
 
-	class BehaviorTreeTask : AbstractBehaviorTreeNode
+	class BehaviorTreeTask : public AbstractBehaviorTreeNode
 	{
 	public:
 		BehaviorTreeTask(std::function<bool()> action);

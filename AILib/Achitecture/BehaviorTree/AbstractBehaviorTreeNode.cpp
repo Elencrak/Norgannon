@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "AbstractBehaviorTreeNode.h"
 
 bool AILib::AbstractBehaviorTreeNode::CheckNode()

@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "BehaviorTree.h"
 
 namespace AILib
@@ -13,5 +12,14 @@ namespace AILib
 
 	BehaviorTree::~BehaviorTree()
 	{
+	}
+	std::shared_ptr<BehaviorTreeSelector> BehaviorTree::GetRoot()
+	{
+		return root;
+	}
+
+	void BehaviorTree::Run()
+	{
+		root->ExecuteNode();
 	}
 }

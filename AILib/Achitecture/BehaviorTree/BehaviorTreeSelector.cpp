@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "BehaviorTreeSelector.h"
 #include "BehaviorTreeDescriptor.h"
 
