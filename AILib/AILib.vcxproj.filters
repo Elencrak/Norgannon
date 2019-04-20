@@ -14,49 +14,26 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Header Files\Architecture">
-      <UniqueIdentifier>{395b086f-889a-44cf-b23f-d9801035a60f}</UniqueIdentifier>
+      <UniqueIdentifier>{cb2ae7a8-d9e4-41ac-a181-96b2a561f9bb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Architecture\BehaviorTree">
-      <UniqueIdentifier>{3d9cdb89-d4cb-4f0a-9bd5-288a216d0f94}</UniqueIdentifier>
+      <UniqueIdentifier>{b72c6eb3-fc50-4fc1-b6ff-a15189596577}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Architecture">
-      <UniqueIdentifier>{91a21de0-6768-4157-a1e8-ebb9e8220de0}</UniqueIdentifier>
+      <UniqueIdentifier>{d38d7d9c-2bef-4eeb-9667-0e5ea854d425}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Architecture\BehaviorTree">
-      <UniqueIdentifier>{fee0654e-3d55-44e1-bafb-9ef6e34f52cf}</UniqueIdentifier>
+      <UniqueIdentifier>{8851e002-93b1-4c6b-81a8-7198304edaf6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTree.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSelector.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSequence.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeTask.h">
-      <Filter>Header Files\Architecture\BehaviorTree</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.cpp">
+      <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
     <ClCompile Include="Achitecture\BehaviorTree\BehaviorTree.cpp">
+      <Filter>Source Files\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.cpp">
       <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
     <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeSelector.cpp">
@@ -65,14 +42,28 @@
     <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeSequence.cpp">
       <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.cpp">
-      <Filter>Source Files\Architecture\BehaviorTree</Filter>
-    </ClCompile>
-    <ClCompile Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.cpp">
-      <Filter>Source Files\Architecture\BehaviorTree</Filter>
-    </ClCompile>
     <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeTask.cpp">
       <Filter>Source Files\Architecture\BehaviorTree</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTree.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSelector.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSequence.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeTask.h">
+      <Filter>Header Files\Architecture\BehaviorTree</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

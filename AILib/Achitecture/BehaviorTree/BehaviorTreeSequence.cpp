@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "BehaviorTreeSequence.h"
 
 namespace AILib

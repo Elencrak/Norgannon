@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "BehaviorTreeTask.h"
 
 namespace AILib

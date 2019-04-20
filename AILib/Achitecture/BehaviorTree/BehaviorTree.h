@@ -11,6 +11,9 @@ namespace AILib
 		BehaviorTree();
 		~BehaviorTree();
 
+		std::shared_ptr<BehaviorTreeSelector> GetRoot();
+		void Run();
+
 	private:
 		std::shared_ptr<BehaviorTreeSelector> root;
 	};
