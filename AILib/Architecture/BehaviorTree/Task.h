@@ -1,15 +1,15 @@
 #pragma once
 #include <functional>
-#include "AbstractBehaviorTreeNode.h"
+#include "AbstractNode.h"
 
-namespace AILib
+namespace BehaviorTree
 {
 
-	class BehaviorTreeTask : public AbstractBehaviorTreeNode
+	class Task : public AbstractNode
 	{
 	public:
-		BehaviorTreeTask(std::function<bool()> action);
-		~BehaviorTreeTask();
+		Task(std::function<bool()> action);
+		~Task();
 
 		// Inherited via AbstractBehaviorTreeNode
 		virtual bool ExecuteNode() override;

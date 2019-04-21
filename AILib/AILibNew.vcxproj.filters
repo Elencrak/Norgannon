@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Achitecture\GOAP\GOAP.cpp">
+      <Filter>Private\Architecture\GOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\Selector.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\AbstractNode.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\Descriptor.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\Sequence.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\Task.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\GOAP\Action.cpp">
+      <Filter>Private\Architecture\GOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\GOAP\Goal.cpp">
+      <Filter>Private\Architecture\GOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\GOAP\WorldState.cpp">
+      <Filter>Private\Architecture\GOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Achitecture\BehaviorTree\Tree.cpp">
+      <Filter>Private\Architecture\BehaviorTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Achitecture\GOAP\GOAP.h">
+      <Filter>Public\Architecture\GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\AbstractNode.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\Descriptor.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\Selector.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\Sequence.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\Task.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\GOAP\Action.h">
+      <Filter>Public\Architecture\GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\GOAP\Goal.h">
+      <Filter>Public\Architecture\GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\GOAP\WorldState.h">
+      <Filter>Public\Architecture\GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Achitecture\BehaviorTree\Tree.h">
+      <Filter>Public\Architecture\BehaviorTree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{34319c2b-93a1-4169-985b-21f8ba5dd06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{25e60f69-a0aa-4a5e-b5cb-62bf8fbc95da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Architecture">
+      <UniqueIdentifier>{b61ba8bd-2777-44f4-a94e-82fa11fb4560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Architecture\BehaviorTree">
+      <UniqueIdentifier>{df4851fc-49eb-472e-b311-43dcc67b9aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Architecture">
+      <UniqueIdentifier>{38a8c033-2257-4d5e-a461-ad99f77524b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Architecture\BehaviorTree">
+      <UniqueIdentifier>{9aaec72a-63c5-4ec2-9d6a-575bd4560819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Architecture\GOAP">
+      <UniqueIdentifier>{8ba4288e-74cf-4c9a-9186-7bce5f954da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Architecture\GOAP">
+      <UniqueIdentifier>{0be73612-d350-44d7-932d-331cfd420e6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
