@@ -152,20 +152,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.cpp" />
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTree.cpp" />
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.cpp" />
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeSelector.cpp" />
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeSequence.cpp" />
-    <ClCompile Include="Achitecture\BehaviorTree\BehaviorTreeTask.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\AbstractNode.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\Tree.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\Descriptor.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\Selector.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\Sequence.cpp" />
+    <ClCompile Include="Achitecture\BehaviorTree\Task.cpp" />
+    <ClCompile Include="Achitecture\GOAP\Action.cpp" />
+    <ClCompile Include="Achitecture\GOAP\Goal.cpp" />
+    <ClCompile Include="Achitecture\GOAP\GOAP.cpp" />
+    <ClCompile Include="Achitecture\GOAP\WorldState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Achitecture\BehaviorTree\AbstractBehaviorTreeNode.h" />
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTree.h" />
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeDescriptor.h" />
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSelector.h" />
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeSequence.h" />
-    <ClInclude Include="Achitecture\BehaviorTree\BehaviorTreeTask.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\AbstractNode.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\Tree.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\Descriptor.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\Selector.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\Sequence.h" />
+    <ClInclude Include="Achitecture\BehaviorTree\Task.h" />
+    <ClInclude Include="Achitecture\GOAP\Action.h" />
+    <ClInclude Include="Achitecture\GOAP\Goal.h" />
+    <ClInclude Include="Achitecture\GOAP\GOAP.h" />
+    <ClInclude Include="Achitecture\GOAP\WorldState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

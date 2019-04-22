@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AITester.cpp" />
+    <ClCompile Include="BehaviorTreeTester.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AILib\AILibNew.vcxproj">
